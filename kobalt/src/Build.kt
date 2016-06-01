@@ -27,6 +27,6 @@ val p2 = project(p1) {
     }
 
     application {
-        mainClass = "com.example.Main"
+        mainClass = "com.example.MainKt"
     }
 }
