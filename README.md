@@ -2,10 +2,10 @@
 
 Simple Java annotation processing example.
 
-## Gradle
+## Build and run with Gradle
 
 `./gradlew run`
 
-## Kobalt
+## Build and run with Kobalt
 
-`./kobaltw assemble sample:run`
+`./kobaltw run`
