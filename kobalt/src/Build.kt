@@ -1,6 +1,7 @@
 import com.beust.kobalt.*
 import com.beust.kobalt.plugin.packaging.*
 import com.beust.kobalt.plugin.application.*
+import com.beust.kobalt.plugin.apt.*
 import com.beust.kobalt.plugin.publish.bintray
 
 val p1 = project {
@@ -28,5 +29,8 @@ val p2 = project(p1) {
 
     application {
         mainClass = "com.example.MainKt"
+    }
+
+    apt {
     }
 }
