@@ -31,6 +31,6 @@ val p2 = project(p1) {
         mainClass = "com.example.MainKt"
     }
 
-    apt {
+    kapt {
     }
 }
