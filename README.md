@@ -1,11 +1,5 @@
 # Annotation processing example
 
-Simple Java annotation processing example.
+Simple Kobalt annotation processing example. Run it with `./kobaltw run`.
 
-## Build and run with Gradle
-
-`./gradlew run`
-
-## Build and run with Kobalt
-
-`./kobaltw run`
+Currently the annotated code has to be Java. The rest is Kotlin.
